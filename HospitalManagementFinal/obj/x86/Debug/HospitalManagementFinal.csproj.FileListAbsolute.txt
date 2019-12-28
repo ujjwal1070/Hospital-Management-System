@@ -1,0 +1,13 @@
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\bin\Debug\HospitalManagementFinal.exe
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\bin\Debug\HospitalManagementFinal.pdb
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Form1OutP.resources
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Form2OutP.resources
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Properties.Resources.resources
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.csproj.GenerateResource.Cache
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.exe
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.pdb
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.csprojResolveAssemblyReference.cache
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Form3OutP.resources
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Form4OutPatientBill.resources
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Form5Bloodinfo.resources
+C:\Users\Welcome\Desktop\HospitalManagementFinal\HospitalManagementFinal\obj\x86\Debug\HospitalManagementFinal.Form6BloodSearch.resources

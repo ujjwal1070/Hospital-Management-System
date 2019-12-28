@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DCED22F7-0FE7-49D3-85B1-6D707904CEF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HospitalManagementFinal</RootNamespace>
+    <AssemblyName>HospitalManagementFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1OutP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1OutP.Designer.cs">
+      <DependentUpon>Form1OutP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2OutP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2OutP.Designer.cs">
+      <DependentUpon>Form2OutP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3OutP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3OutP.Designer.cs">
+      <DependentUpon>Form3OutP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4OutPatientBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4OutPatientBill.Designer.cs">
+      <DependentUpon>Form4OutPatientBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5Bloodinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5Bloodinfo.Designer.cs">
+      <DependentUpon>Form5Bloodinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6BloodSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6BloodSearch.Designer.cs">
+      <DependentUpon>Form6BloodSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1OutP.resx">
+      <DependentUpon>Form1OutP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2OutP.resx">
+      <DependentUpon>Form2OutP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3OutP.resx">
+      <DependentUpon>Form3OutP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4OutPatientBill.resx">
+      <DependentUpon>Form4OutPatientBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5Bloodinfo.resx">
+      <DependentUpon>Form5Bloodinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6BloodSearch.resx">
+      <DependentUpon>Form6BloodSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27153055_1183384255126256_604769491_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pp1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
